@@ -7,7 +7,9 @@ namespace Gambler_Simulator
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Gambling Simulator Problem!\n");
-            Game.game_play();
+            Game.Game_play();
+            Game play = new Game();
+            play.Win_loose();
         }
     }
 }
