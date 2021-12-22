@@ -27,12 +27,12 @@ namespace Gambler_Simulator
                 if (bet == 1)
                     {
                         Console.WriteLine("You have Won!");
-                        stake_amount = stake_amount + 1;
+                         stake_amount++;
                     }
                     else
                     {
                         Console.WriteLine("You have Lost!");
-                        stake_amount = stake_amount - 1;
+                        stake_amount--;
                     }
                     count++;
                 }
